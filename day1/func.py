@@ -44,10 +44,10 @@ my_func()
 
 #Enclosing scope means that a function that's nested inside another function can access the variables of the function it's nested within
 
-
+"""
 def outer_func():
     msg = 'Hello there!'
-#    print(res)
+    print(res)
 
     def inner_func():
         res = 'How are you?'
@@ -56,6 +56,7 @@ def outer_func():
     inner_func()
 
 outer_func() # NameError: name 'res' is not defined
+"""
 """
 res cannot be acceses by the outer function because the res in locally scoped 
 and the outer fucntion is trying to print the res even before the interpreter reads the res variable
