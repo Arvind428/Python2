@@ -29,6 +29,3 @@ print(num)
 
 num.insert(2,500)
 print(num)
-
-#remove()
-#
