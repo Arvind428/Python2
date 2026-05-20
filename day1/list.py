@@ -65,11 +65,36 @@ print(ci)
 #unpacking the values inside an list
 li=["name",20,"Backend Developer"]
 name,age,job=li
-print(name)
-print(age)
-print(job)
+print(name)#name
+print(age)#20
+print(job)#Backend developer
+
+#asterisk(*) operator
+name,*rest=li
+print(rest)
+print(name)#name
 
 
+#value Error
+#we get an value error 
+#if number of variables on the left side
+#doesnot match the total numbers of items in the list
+
+# name,age,job,city=li
+
+#     name,age,job,city=li
+#     ^^^^^^^^^^^^^^^^^
+# ValueError: not enough values to unpack (expected 4, got 3)
+
+
+#SLice Operator(:)
+# the slice operatror is used to access protions of list
+rollno=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+t=rollno[1:4]#uses index numbers
+print(t)
+#only even numbers
+e=rollno[1::2]#acess every second number in a list
+print(e)
 
 """
 this are the comments
