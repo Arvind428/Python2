@@ -95,8 +95,3 @@ print(t)
 #only even numbers
 e=rollno[1::2]#acess every second number in a list
 print(e)
-
-"""
-this are the comments
-3 quotes
-"""
