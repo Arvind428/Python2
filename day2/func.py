@@ -40,11 +40,3 @@ print(insertion_sort(n))
 5. repeat
 
 """
-
-
-
-
-
-
-
-
